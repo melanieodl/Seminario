@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+  </head>
+  <body class="bg-info">
+
+
+    <div class="container" style="background:white; margin-top:25px; padding:30px; padding-left:80px; padding-right:80px;">
+        <form method="post" class="" action="dpi.php">
+        <div class="row form-group">
+          <div class="col-sm-4">
+            <label for="cui">CUI: </label>
+            <input class="form-control" type="text" name="cui" id="">
+          </div>
+        </div>
+         <div class="row form-group">
+            <div class="col">
+              <label for="nombre">Nombre:</label>
+              <input class="form-control" type="text" name="nombre">
+            </div>
+            <div class="col">
+              <label for="apellido">Apellido:</label>
+              <input class="form-control" type="text" name="apellido">  
+            </div>
+         </div>
+         <div class="row form-group">
+          <div class="col">
+            <label for="sexo">Sexo:</label>
+              <select class="form-control"name="sexo" id="">
+                <option value="femenino">FEMENINO</option>
+                <option value="masculino">MASCULINO</option>
+              </select>
+          </div>
+          <div class="col">
+            <label for="nacionalidad">Nacionalidad:</label>
+              <input class="form-control" type="text" name="nacionalidad" value="GUATEMALA">
+          </div>
+          <div class="col">
+            <label for="nacimiento">Fecha Nacimiento:</label>
+            <input class="form-control" type="date" name="nacimiento" value="">
+          </div>
+         </div>
+          <div class="row form-group">
+            <div class="col">
+              <label for="lugarnacimiento">Lugar de nacimiento:</label>
+              <input class="form-control" type="text" name="lugarnacimiento" value="">
+            </div>
+            <div class="col">
+              <label for="vecindad">Vecindad:</label>
+              <input class="form-control"type="text" name="vecindad" value="">
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col">
+              <label for="estado_civil">Estado Civil:</label>
+              <select class="form-control" name="estado_civil" id="">
+                <option value="soltera">SOLTERA</option>
+                <option value="casado">CASADA</option>
+              </select>
+            </div>
+            <div class="col">
+              <label for="vencimiento">Fecha de Vencimiento:</label>
+              <input class="form-control" type="date" name="vencimiento" value="28/01/2024">
+            </div>
+          </div>         
+          
+            
+          
+          <div class="row">
+            <div class="col align-self-end"></div>
+          <button class="btn btn-primary btn-lg h3 " type="submit" name="enviar">ENVIAR</button>
+
+          </div>
+          
+      </form>
+    </div>
+  
+  </body>
+</html>
