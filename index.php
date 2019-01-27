@@ -63,7 +63,7 @@ session_start();
         <input class="form-control" type="password" placeholder="Enter Password" name="password" required>
     </div>
     <div class="row justify-content-center">
-    <button class="btn btn-success btn-lg btn-block" style="weight:50px;" type="submit" name="enviar" value="enviar">Login</button>
+    <button class="btn btn-primary btn-lg btn-block" style="weight:50px;" type="submit" name="enviar" value="enviar">Login</button>
 
 
     </div>
