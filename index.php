@@ -54,6 +54,7 @@ session_start();
         <img src="https://cdn0.iconfinder.com/data/icons/user-icons-4/100/user-28-512.png" alt="Avatar" class="avatar" height="250px" weight="250px">
         </div>
     </div>
+    <h1 class="text-success text-center">Wellcome!</h1>
     <div class="row form-group">
         <label for="uname"><b>Username</b></label>
         <input class="form-control" type="text" placeholder="Enter Username" name="usuario" required>
